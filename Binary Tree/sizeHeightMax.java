@@ -30,6 +30,7 @@ public class sizeHeightMax {
     }
     public static void PreOrder(Node root){
         if(root==null) return ;
+        if(root.left==null&&root.right==null) return;
             System.out.print(root.val+" ");
             PreOrder(root.left);
             PreOrder(root.right);
@@ -58,7 +59,8 @@ public class sizeHeightMax {
     //    System.out.println(Size(root));
     //    System.out.println(Sum(root));
     //    System.out.println(Max(root));
-       System.out.println(height(root));
+    //    System.out.println(height(root));
+       PreOrder(root);
 
     }
 

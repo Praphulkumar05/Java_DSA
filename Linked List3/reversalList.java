@@ -74,7 +74,7 @@ public class reversalList {
       //  Node p = Node.Rev(a);
       Node r = Node.R(a);
     //    Node.print(a);
-    //   Node.print(r);
+       Node.print(r);
             // Node n  = Node.Deep(a);
             // Node.print(n);
         
